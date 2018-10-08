@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Remember to include jQuery :) -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<!-- jQuery Modal -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script> -->
+	<script src="jquery.modal.js"></script>
+	<link rel="stylesheet" href="jquery.modal.css" />
+	<link rel="stylesheet" type="text/css" href="test.css">
+</head>
+
+
+<body>
+
+	
+	<!-- Modal HTML embedded directly into document -->
+	<div id="ex1" class="modal" style="display:none">
+	  	<p>Here's the first modal. <a href="#ex1b" rel="modal:open">Click for the second.</a></p>
+		<img src="http://www.daily-sun.com/assets/news_images/2017/02/09/DailySun-2017-02-09-05-1.jpg" alt="Technology Taking Over 
+		Our Family Bonding " class="main_img">
+	  	<a href="#" rel="modal:close">Close</a>
+	</div>
+
+	<div id="ex1b" class="modal" style="display:none">
+	  	<p>Here's the second modal. <a href="#ex1c" rel="modal:open">Click for the third.</a></p>
+		<img src="https://www.hankermag.com/wp-content/uploads/2017/11/Addiction-to-technology1.jpg" class="main_img">
+	  	<a href="#" rel="modal:close">Close</a>
+	</div>
+
+	<div id="ex1c" class="modal">
+	  	<p>Here's the third one. <a href="#ex1d" rel="modal:open">Click for the fourth one</a>.</p>
+	  	<img src="https://static.boredpanda.com/blog/wp-content/uploads/2015/12/smart-phone-addiction-technology-modern-world-jean-jullien34__700.jpg" class="main_img">
+	  	<a href="#" rel="modal:close">Close</a>
+	</div>
+
+	<div id="ex1d" class="modal">
+	  	<p>Here's the fourth one. <a href="ex1e" rel="modal:open">Click for the fifth one</a>.</p>
+	  	<img src="https://static.boredpanda.com/blog/wp-content/uploads/2015/12/smart-phone-addiction-technology-modern-world-jean-jullien46__700.jpg" class="main_img">
+	  	<a href="#" rel="modal:close">Close</a>
+	</div>
+
+	<!-- Link to open the modal -->
+	<p><a href="#ex1" rel="modal:open">Open Modal</a></p>
+
+	<div class="loader"></div>
+
+	<div id="myProgress">
+  	<div id="myBar"></div>
+	</div>
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
